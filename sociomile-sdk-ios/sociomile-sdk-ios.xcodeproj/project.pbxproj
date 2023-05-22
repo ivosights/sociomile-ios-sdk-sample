@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE3F56B729D2B56400667431 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE3F56B629D2B56400667431 /* FirebaseAnalytics */; };
 		CE3F56B929D2B56400667431 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CE3F56B829D2B56400667431 /* FirebaseMessaging */; };
+		CE57130D2A1B229B000C3F9A /* SociomileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CE57130C2A1B229B000C3F9A /* SociomileSDK */; };
 		CE6B115B298A434200B983C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B115A298A434200B983C8 /* AppDelegate.swift */; };
 		CE6B115D298A52FE00B983C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6B115C298A52FE00B983C8 /* GoogleService-Info.plist */; };
 		CEA73AB329CD61FC0071C8AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73AB229CD61FC0071C8AA /* HomeView.swift */; };
@@ -25,7 +26,6 @@
 		CEB219BF29825810004E10E5 /* sociomile_sdk_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219BE29825810004E10E5 /* sociomile_sdk_iosTests.swift */; };
 		CEB219C929825810004E10E5 /* sociomile_sdk_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219C829825810004E10E5 /* sociomile_sdk_iosUITests.swift */; };
 		CEB219CB29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219CA29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift */; };
-		CEB6394B29D569E9001FC847 /* SociomileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CEB6394A29D569E9001FC847 /* SociomileSDK */; };
 		CEEFFEBC29D15070004A576A /* HelpCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFFEBB29D15070004A576A /* HelpCenterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB6394B29D569E9001FC847 /* SociomileSDK in Frameworks */,
+				CE57130D2A1B229B000C3F9A /* SociomileSDK in Frameworks */,
 				CE3F56B929D2B56400667431 /* FirebaseMessaging in Frameworks */,
 				CE3F56B729D2B56400667431 /* FirebaseAnalytics in Frameworks */,
 			);
@@ -216,7 +216,7 @@
 			packageProductDependencies = (
 				CE3F56B629D2B56400667431 /* FirebaseAnalytics */,
 				CE3F56B829D2B56400667431 /* FirebaseMessaging */,
-				CEB6394A29D569E9001FC847 /* SociomileSDK */,
+				CE57130C2A1B229B000C3F9A /* SociomileSDK */,
 			);
 			productName = "sociomile-sdk-ios";
 			productReference = CEB219A52982580F004E10E5 /* sociomile-sdk-ios.app */;
@@ -292,7 +292,7 @@
 			mainGroup = CEB2199C2982580F004E10E5;
 			packageReferences = (
 				CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */,
+				CE57130B2A1B229B000C3F9A /* XCRemoteSwiftPackageReference "SociomileSDK" */,
 			);
 			productRefGroup = CEB219A62982580F004E10E5 /* Products */;
 			projectDirPath = "";
@@ -441,6 +441,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -494,6 +495,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -505,7 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "sociomile-sdk-ios/sociomile-sdk-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "sociomile-sdk-ios/Preview\\ Content";
 				DEVELOPMENT_TEAM = APJ2QW5UV3;
 				ENABLE_PREVIEWS = YES;
@@ -523,7 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivo.sociomile-sdk-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,7 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "sociomile-sdk-ios/sociomile-sdk-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "sociomile-sdk-ios/Preview\\ Content";
 				DEVELOPMENT_TEAM = APJ2QW5UV3;
 				ENABLE_PREVIEWS = YES;
@@ -561,7 +563,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivo.sociomile-sdk-ios";
@@ -701,12 +703,12 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */ = {
+		CE57130B2A1B229B000C3F9A /* XCRemoteSwiftPackageReference "SociomileSDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ivosights/SociomileSDK.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.3;
+				kind = exactVersion;
+				version = 0.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -722,9 +724,9 @@
 			package = CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
-		CEB6394A29D569E9001FC847 /* SociomileSDK */ = {
+		CE57130C2A1B229B000C3F9A /* SociomileSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */;
+			package = CE57130B2A1B229B000C3F9A /* XCRemoteSwiftPackageReference "SociomileSDK" */;
 			productName = SociomileSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
