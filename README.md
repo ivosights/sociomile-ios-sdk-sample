@@ -5,7 +5,7 @@ This repo contains a sample application that will help you learn how to use the 
 Sociomile SDK sample project for iOS platform using Swift with SwiftUI interface.
 
 # Documentation
-You can find documentation for the SDK implementation guidelines on [dokumentasi](https://di.ngetest.com/docs/sdk-live-chat-sociomile-2/)
+You can find documentation for the SDK implementation guidelines in [here](https://di.ngetest.com/docs/sdk-live-chat-sociomile-2/)
 
 Getting started :
 
